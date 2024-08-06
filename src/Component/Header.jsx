@@ -22,7 +22,7 @@ function Header() {
     <header  ref={headerRef}  className="pt-[60px] fixed top-0 left-0 w-full z-50  transition-all duration-200">
         <div className="container flex justify-between items-center gap-[30px] sm:gap-0  flex-col sm:flex-row ">
         <a href="/">
-        <img src="/src/assets/images/logo.svg" alt="" />
+        <img src="/public/images/logo.svg" alt="" />
         </a>
         <nav>
         <ul className="flex items-center gap-[50px]">

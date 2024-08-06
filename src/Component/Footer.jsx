@@ -27,7 +27,7 @@ function Footer() {
       <div className="container">
         <a href="/">
           <img
-            src="/src/assets/images/logo.svg"
+            src="/public/images/logo.svg"
             alt="logo"
             className="w-[175px] h-[66px] object-contain"
           />
@@ -35,7 +35,7 @@ function Footer() {
         <div className="mt-[30px] flex justify-between flex-wrap flex-col md:flex-row gap-[30px]">
           <div className="flex items-start gap-[15px] w-[340px] max-w-full">
             <img
-              src="/src/assets/images/icon-location.svg"
+              src="/public/images/icon-location.svg"
               alt="icon-location"
               className="w-[18px] h-[18px] object-contain"
             />
@@ -50,7 +50,7 @@ function Footer() {
             {contact.map((item) => (
               <div key={item.text} className="flex items-center gap-[15px] mb-[15px] last-of-type:mb-0">
                 <img
-                  src={`/src/assets/images/${item.icon}`}
+                  src={`/public/images/${item.icon}`}
                   alt="icon"
                   className="w-[18px] h-[18px] object-contain"
                 />
